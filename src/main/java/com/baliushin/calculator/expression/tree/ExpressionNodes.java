@@ -41,32 +41,27 @@ public class ExpressionNodes {
 	}
 	
 	public static class AddOperationNode extends OperationNode {
-
 		public Double evaluate() {
 			return leftNode.evaluate() + rightNode.evaluate();
 		}
 	}
 	
 	public static class DivideOperationNode extends OperationNode {
-
 		public Double evaluate() {
 			return leftNode.evaluate() / rightNode.evaluate();
 		}
 	}
 	
 	public static class MultiplyOperationNode extends OperationNode {
-
 		public Double evaluate() {
 			return leftNode.evaluate() * rightNode.evaluate();
 		}
 	}
 	
 	public static class SubtractOperationNode extends OperationNode {
-
 		public Double evaluate() {
 			return leftNode.evaluate() - rightNode.evaluate();
 		}
-
 	}
 	
 }
