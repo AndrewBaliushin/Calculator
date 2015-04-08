@@ -1,5 +1,7 @@
 package com.baliushin.calculator.expression.tree;
 
+import static com.baliushin.calculator.expression.tree.ExpressionNodes.*;
+
 import java.io.IOException;
 import java.util.List;
 import java.util.Stack;
